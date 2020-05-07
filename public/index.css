@@ -1,0 +1,137 @@
+
+body{
+  margin:0;
+  padding:0;
+  background:rgba(185, 228, 150,0.6);
+  color:rgb(51, 82, 61);
+  font-family: sans-serif;
+}
+
+header{
+  height:70px;
+  line-height:70px;
+  text-align:center;
+}
+
+header h2{
+  font-weight: 800;
+  font-size: 46px;
+}
+
+.container{
+  margin-left:4%;
+  margin-right:4%;
+  margin-top:20px;
+  margin-bottom:100px;
+  background: radial-gradient(circle,rgb(168, 216, 214),rgb(163, 223, 114));
+  box-shadow: 0 4px 8px 1px rgba(1,1,1,0.4), 0 2px 12px 6px rgba(1,1,1,0.2) ;
+  border-radius: 10px;
+  min-height: 60vh;
+}
+
+.items-head{
+  padding-top:20px;
+  display: grid;
+  grid-template-columns: 84% 16%;
+}
+
+.adding{
+  padding-top:80px;
+}
+
+.items-head h2,.adding h2{
+  margin:10px 0;
+  font-weight: 700;
+  font-size:28px;
+  padding-left:20px; 
+}
+
+.adding h2{
+  text-align: center;
+  margin-bottom:50px;
+}
+
+.items-head button{
+  margin-right:16px;
+}
+
+
+.items ol{
+  padding-left:10%;
+  padding-right:10%;
+  padding-bottom:100px;
+}
+
+.items li{
+  padding:8px 0;
+  min-height:50px;
+  font-size:20px;
+  width:100%;
+  display:grid;
+  grid-template-columns: 40% 20% 20%;
+  grid-column-gap: 10%;
+  border-bottom:1px solid rgb(233, 240, 239);
+}
+
+.items button{
+  height: 50px;
+}
+
+.items span{
+  padding-left:20px; 
+  line-height: 50px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.adding form{
+  padding-left:40px;
+}
+
+.adding input{
+  padding:8px 40px 8px 20px;
+  margin-right:20px;
+  font-size: 18px;
+  font-weight: 700;
+  color:rgb(51, 82, 61);
+  margin-bottom:20px;
+}
+
+.adding button{
+  padding:8px 40px 8px 20px;
+}
+
+#backBtn{
+  position: absolute;
+  top:160px;
+  left:10vw;
+}
+
+button{
+  background:rgb(163, 223, 114) ;
+  border:none;
+  box-shadow: 0 2px 2px 1px rgba(1,1,1,0.4),0 2px 12px 6px rgba(1,1,1,0.2);
+  color:rgb(51, 82, 61);
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+
+
+
+.adding form{
+  text-align: center;
+}
+
+
+@media(max-width:750px){
+  button{
+    font-size:12px;
+  }
+  .adding{
+    text-align: center;
+  }
+  .adding input{
+    width:200px;
+  }
+}
